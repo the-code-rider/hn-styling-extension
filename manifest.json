@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Center Hacker News Content",
+  "version": "1.0",
+  "description": "Centers the content of the Hacker News website.",
+  "permissions": ["activeTab"],
+  "icons":{
+	  "16": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://news.ycombinator.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
+

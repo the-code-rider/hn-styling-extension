@@ -1,0 +1,11 @@
+/* style.css */
+body {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 100%;
+  max-width: 800px; /* Adjust this value as needed */
+}
+
